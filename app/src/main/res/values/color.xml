@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_blue_dark">#ff027ff1</color>
+    <color name="material_red_pastel">#ffff5b5b</color>
+    <color name="material_grey_background">#ffe9e9e9</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="material_blue_light">#ffdfebfd</color>
+    <color name="material_blue_pastel">#ff9bb6f8</color>
+
+    <color name="ripple">#33ffffff</color>
+
+    <color name="tpi_checked">#FFFFFFFF</color>
+    <color name="tpi_unchecked">#99FFFFFF</color>
+</resources>

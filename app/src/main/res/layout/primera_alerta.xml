@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/material_red_pastel"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ice89"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuidado! Ola de frío!"
+            android:gravity="end"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desde la Xunta de Galicia se recomienda no salir a la calle sin ir bien abrigado a causa de la receinte ola de frío que azotará nuestra comunidad las próximas semanas.\n\nRecomendamos estar bien abrigados y no pasar mucho tiempo al aire libre."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:text="13/01/2015"/>
+</LinearLayout>

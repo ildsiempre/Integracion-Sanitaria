@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/initial_login_fragment_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initial_login_fragment_wellcome_textView"
+        android:id="@+id/initial_login_fragment_wellcome_textView"
+        style="@style/wellcome_textView"
+        android:layout_below="@id/initial_login_fragment_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initial_login_fragment_wellcome_sub_textView"
+        android:id="@+id/initial_login_fragment_wellcome_sub_textView"
+        android:layout_below="@id/initial_login_fragment_wellcome_textView"
+        android:gravity="center"/>
+
+    <com.rey.material.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:text="PROBAR"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:id="@+id/prueba_button"
+        style="@style/material_button"/>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usuario.integracionsanitaria.ZonaPrincipal.AlarmasFragment"
+    android:id="@+id/listView_alarmas"
+    android:padding="@dimen/parent_linearLayout_padding"
+    android:dividerHeight="@dimen/tab_linear_layout_padding"
+    android:divider="@color/material_grey_background"
+    android:paddingTop="0dp">
+
+
+
+</ListView>
